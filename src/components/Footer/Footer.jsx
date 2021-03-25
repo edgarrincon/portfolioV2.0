@@ -43,7 +43,7 @@ const Footer = () => {
           <a href="https://github.com/edgarrincon" target="_blank" rel="noopener noreferrer">
             Edgar Rincón
           </a>{' '}
-          <span> inspired on Jacobo Martínez Template </span>
+          inspired on Jacobo Martínez Template
         </p>
 
         {isEnabled && <GithubButtons />}
