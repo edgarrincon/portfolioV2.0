@@ -45,7 +45,7 @@ export const projectsData = [
     info: 'Physical and online MARKET & BAKERY',
     info2: 'eCommerce made by Woocommerce sync with Odoo ERP',
     url: 'https://lacumbremarket.com/',
-    repo: 'https://github.com/edgarrincon', // if no repo, the button will not show up
+    repo: 'https://github.com/edgarrincon/lacumbre', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
