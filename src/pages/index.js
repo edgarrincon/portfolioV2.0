@@ -15,7 +15,10 @@ export default () => {
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
-        <meta name='google-site-verification" content="kxzsF0wxnR2E7gIrK_Fc853gD3bDRdXZSSJocaytlP8' />
+        <meta
+          name="google-site-verification"
+          content="kxzsF0wxnR2E7gIrK_Fc853gD3bDRdXZSSJocaytlP8"
+        />
       </Helmet>
       <App />
     </>
