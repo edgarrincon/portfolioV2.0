@@ -10,10 +10,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, I'm",
-  name: 'Edgar Rincón',
-  subtitle: 'Web Developer',
-  cta: 'Projects',
+  title: "Hi👋 I'm",
+  name: 'Edgar',
+  subtitle: 'a Web site developer',
+  cta: 'About & Projects',
 };
 
 // ABOUT DATA
@@ -90,7 +90,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'whatsapp',
-      url: 'https://wa.me/+584246132492?text=Hi%20Edgar.%20',
+      url: 'https://wa.me/+13464330692?text=Hi%20Edgar.%20',
     },
     {
       id: nanoid(),
