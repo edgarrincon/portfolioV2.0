@@ -3,17 +3,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Edgar Rincón Morán » Web Developer', // e.g: 'Name | Developer'
+  title: 'Edgar Rincón » Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Hi, Welcome to my Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Edgar Rincón Morán',
-  subtitle: "I'm a Web Developer",
-  cta: 'know more',
+  title: "Hi, I'm",
+  name: 'Edgar Rincón',
+  subtitle: 'Web Developer',
+  cta: 'Projects',
 };
 
 // ABOUT DATA
