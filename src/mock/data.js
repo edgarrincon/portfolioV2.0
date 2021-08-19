@@ -53,7 +53,7 @@ export const projectsData = [
     title: 'BSI',
     info: 'Installation Done Right',
     info2: 'An amazing site for an wonderful company made with vanilla Javascript',
-    url: 'https://bsi.vercel.app/',
+    url: 'https://installbsi.com/',
     repo: 'https://github.com/edgarrincon/bsi', // if no repo, the button will not show up
   },
   {
