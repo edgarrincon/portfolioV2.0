@@ -40,6 +40,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'abgonzalez.jpg',
+    title: 'González Parra & Asociados',
+    info: 'Law Firm, Website made 100% with React',
+    info2: 'Leading lawyers in western Venezuela',
+    url: 'https://abgonzalezparra.com/',
+    repo: 'https://github.com/edgarrincon/gonzalezparra', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'lacumbremarket.jpg',
     title: 'La Cumbre Market',
     info: 'Physical and online MARKET & BAKERY',
