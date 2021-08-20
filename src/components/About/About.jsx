@@ -56,7 +56,8 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      {' '}
+                      GitHub Profile
                     </a>
                   </span>
                 )}

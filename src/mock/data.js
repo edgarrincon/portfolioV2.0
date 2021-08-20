@@ -10,10 +10,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi👋 I'm",
-  name: 'Edgar',
-  subtitle: 'a Web site developer',
-  cta: 'About & Projects',
+  title: '',
+  name: '',
+  subtitle: '',
+  cta: '',
 };
 
 // ABOUT DATA
@@ -23,8 +23,8 @@ export const aboutData = {
     'Web Developer with 1+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies',
   paragraphTwo:
     'Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiency.',
-  paragraphThree: 'Do you want to hire me? take a look at Resumen',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: 'Do you want to hire me? take a look at GitHub profile',
+  resume: 'https://github.com/edgarrincon', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
