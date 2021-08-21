@@ -20,9 +20,9 @@ export const heroData = {
 export const aboutData = {
   img: 'edgar.jpg',
   paragraphOne:
-    'Web Developer with 1+ years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies',
+    'Web Developer with 2+ years of experience designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies',
   paragraphTwo:
-    'Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiency.',
+    'Proven ability optimizing web functionalities that improve data retrieval and workflow efficiency.',
   paragraphThree: 'Do you want to hire me? take a look at GitHub profile',
   resume: 'https://github.com/edgarrincon', // if no resume, the button will not show up
 };
