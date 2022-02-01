@@ -1,6 +1,11 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://edgarrincon.com/.com`,
+  },
+
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
