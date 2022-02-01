@@ -46,7 +46,8 @@ const About = () => {
                     'Proven ability optimizing web functionalities that improve data retrieval and workflow efficiency.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Do you want to hire me? take a look at GitHub profile:'}
+                  {paragraphThree ||
+                    'Do you want to hire me? Awsome! take a look at GitHub profile:'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
