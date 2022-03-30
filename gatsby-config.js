@@ -1,9 +1,5 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://edgarrincon.com/.com`,
-  },
-
   plugins: [
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
@@ -29,12 +25,39 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Edgar Portfolio`,
-        short_name: `Edgar Rincón`,
+        short_name: `EDGAR RINCON`,
         start_url: `/`,
         background_color: `#ffe817`,
         theme_color: `#101920`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
+      },
+
+      siteMetadata: {
+        siteUrl: `https://edgarrincon.com/.com`,
+      },
+    },
+
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        // Defaults used for gatsbyImageData and StaticImage
+        defaults: {},
+        // Set to false to allow builds to continue on image errors
+        failOnError: true,
+        // deprecated options and their defaults:
+        base64Width: 20,
+        forceBase64Format: `jpg`, // valid formats: png,jpg,webp
+        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+        stripMetadata: true,
+        defaultQuality: 50,
       },
     },
   ],
